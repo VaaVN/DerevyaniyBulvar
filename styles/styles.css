@@ -1,1 +1,62 @@
 @import url("reset.css");
+a {
+  color: #fff;
+  font-family: Mateur;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  scale: 1;
+}
+a:hover {
+  scale: 1.06;
+}
+h1 {
+  color: rgb(48, 48, 48);
+  font-family: "129 Fatboy";
+  font-size: 144px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+header {
+  width: 95%;
+  height: 120px;
+  display: flex;
+  padding: 8px 72px;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(48, 48, 48);
+  border-radius: 0 0 48px 48px;
+}
+main {
+  display: flex;
+  width: 100svw;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  background: linear-gradient(180deg, #727272 21.11%, #e0ebff 42.31%);
+}
+.headerLinks {
+  display: flex;
+  gap: 36px;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+}
+.titleFrame {
+  display: flex;
+  flex-direction: column;
+  padding: 216px 48px 96px 48px;
+  align-items: flex-start;
+  width: 100%;
+  gap: 96px;
+  border-radius: 0 0 96px 96px;
+  background: #cccccc;
+}
